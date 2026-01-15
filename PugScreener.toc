@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: PugScreener
+## Notes: Screens PUG whispers
+## Version: 1.0
+
+PugScreener.lua
