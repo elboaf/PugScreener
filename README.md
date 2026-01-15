@@ -1,5 +1,7 @@
 # PugScreener Addon for Turtle WoW
 
+PugScreener has a companion app that monitors the exported file for changes. The companion app in no way interacts with the game client whatsoever, and would not violate any of the turtle wow rules https://turtlecraft.gg/rules
+
 ## Overview
 PugScreener is a lightweight addon for Turtle WoW that helps you track and export the names of players who whisper you, perfect for managing PUG (Pick-Up Group) recruitment or tracking contacts.
 
