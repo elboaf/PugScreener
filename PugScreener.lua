@@ -23,7 +23,7 @@ local function addPlayerToFile(playerName)
     
     -- Export to file using superwow.dll's ExportFile function
     if ExportFile then
-        ExportFile("pugscreener.txt", cleanName .. "\n")
+        ExportFile("pugscreener", cleanName .. "\n")
         DEFAULT_CHAT_FRAME:AddMessage("PugScreener: Added " .. cleanName .. " to pugscreener.txt")
         
         -- Add to tracked players if tracking is enabled
@@ -92,4 +92,5 @@ pugFrame:SetScript("OnEvent", function()
 end)
 
 -- Initialization message
+
 DEFAULT_CHAT_FRAME:AddMessage("PugScreener loaded. Type /pugscreen for commands.")
