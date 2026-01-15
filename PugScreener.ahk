@@ -4,7 +4,7 @@ SendMode Input
 SetWorkingDir, %A_ScriptDir%
 
 ; CONFIGURATION - Change these values as needed
-fileToMonitor := "C:\Users\Administrator\Desktop\twmoa_1172\Imports\pugscreener.txt.txt"  ; Path to your text file
+fileToMonitor := "C:\Users\Administrator\Desktop\twmoa_1172\Imports\pugscreener.txt"  ; Path to your text file
 checkInterval := 1000           ; Check every second (1000ms)
 
 ; Initialize variables
@@ -54,4 +54,5 @@ F1::
 return
 
 ; Exit hotkey
+
 ^Esc::ExitApp
